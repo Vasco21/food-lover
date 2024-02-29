@@ -7,15 +7,15 @@ import { RegularText } from '../../../../components/Typography'
 
 export const paymentMethods = {
   credit: {
-    label: 'Cartão de Cŕedito',
+    label: 'Card',
     icon: <CreditCard size={16} />,
   },
   debit: {
-    label: 'Cartão de Débito',
+    label: 'Card Debit',
     icon: <Bank size={16} />,
   },
   money: {
-    label: 'Dinheiro',
+    label: 'Cash',
     icon: <Money size={16} />,
   },
 }
