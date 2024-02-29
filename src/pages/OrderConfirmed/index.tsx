@@ -33,9 +33,9 @@ export function OrderConfirmedPage() {
   return (
     <OrderConfirmedContainer className="container">
       <div>
-        <TitleText size="l">Uhu! Pedido confirmado</TitleText>
+        <TitleText size="l">Payment Confemation</TitleText>
         <RegularText size="l" color="subtitle">
-          Agora é só aguardar que logo o café chegará até você
+          Thank You
         </RegularText>
       </div>
 
@@ -46,7 +46,7 @@ export function OrderConfirmedPage() {
             iconColor={colors['brand-purple']}
             text={
               <RegularText>
-                Entrega em
+                Enter
                 <strong>
                   {state.street}, {state.number}
                 </strong>
@@ -61,7 +61,7 @@ export function OrderConfirmedPage() {
             iconColor={colors['brand-yellow']}
             text={
               <RegularText>
-                Previsão de entrega
+                Enter 
                 <br />
                 <strong>20 min - 30 min</strong>
               </RegularText>
@@ -73,7 +73,7 @@ export function OrderConfirmedPage() {
             iconColor={colors['brand-yellow-dark']}
             text={
               <RegularText>
-                Pagamento na entrega
+                Enter Payment
                 <br />
                 <strong>{paymentMethods[state.paymentMethod].label}</strong>
               </RegularText>
